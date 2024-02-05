@@ -1,0 +1,10 @@
+{%load static%}
+<img src= "{%static '/static/img/modern.jpg' %}" alt="My image"><br>
+
+{%if list%}
+{%for items in list%}
+{{items.name}} : {{items.time}}<br>
+{%endfor%}
+{%else%}
+no reservations are made today
+{%endif%}

@@ -1,0 +1,13 @@
+
+
+{% comment %} from .forms import InputForm {% endcomment %}
+
+<p style="background-color: red"> Hello </p>
+
+<form action="" method="post" style="background-color: bisque">
+    {% comment %} # post method is used because we are sending the data from form and creating an object from it. {% endcomment %}
+    {% csrf_token %} {% comment %}# it is token which is used to tell django that form data is safe{% endcomment %}
+    {{ form.as_p}}
+
+    <input type="submit" value="Submit">
+</form>

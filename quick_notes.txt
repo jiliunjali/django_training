@@ -1,3 +1,5 @@
+random notes made while studing for remembering few concepts.
+
 Form vs. Model:
 
 Form: In Django, a form is a user interface that collects and validates user input. It's typically used to interact with data on the client side, such as submitting a contact form or updating a profile.
